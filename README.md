@@ -4,5 +4,14 @@
 
     $ cd <projectName>
 
-    $ python manage.py runserver
+    $ git init
 
+    $ git remote add origin <repo-link>
+
+    $ git add .
+
+    $ git commit -m "init"
+
+    $ git push origin main
+
+    $ python manage.py runserver
